@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-size: large;
+        }
+        .t1{
+            color: blue;
+            border: 1px solid black;
+            padding: 3px 2px 0 2px;
+        }
+        .t2{
+            color: blue;
+            border: 1px solid black;
+            padding: 3px 0 3px 2px;
+
+        }
+        td{
+            padding: 5px;
+            border-collapse: collapse;
+        }
+        .tr2 td{
+            border-right: 2px solid blue;
+        }
+        td:hover{
+            background-color: #ed9c11;
+        }
+        tr{
+           background-color: cyan;
+        }
+        .tr2{
+            border-right: none;
+            background-color: gainsboro;
+        }
+        .tr2 td:hover{
+            background-color: gray;
+        }
+        a{
+            display:block;
+            text-decoration:none;
+        }
+    </style>
+</head>
+<div>
+    <h3>Vertical Navigation Bar</h3>
+    <table class="t1">
+        <tr><td><a href="#">Home</a></td></tr>
+        <tr><td><a href="#">Java</a></td></tr>
+        <tr><td><a href="#">CSS</a></td></tr>
+        <tr><td><a href="#">HTML</a></td></tr>
+        <tr><td><a href="#">Bootstrap</a></td></tr>
+    </table>
+    <h3>Horizontal Navigation Bar</h3>
+    <table class="t2">
+        <tr class="tr2">
+            <td><a href="#">Home</a></td>
+            <td><a href="#">Java</a></td>
+            <td><a href="#">HTML</a></td>
+            <td><a href="#">CSS</a></td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+    </table>
+</div>
+</html>
